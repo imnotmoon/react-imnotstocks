@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #0b3687;
+    height: 60px;
+    padding: 0 20px;
+    min-width: 1200px;
+    /* max-width: 1400px; */
+    box-sizing: border-box;
+}
+
+.logo {
+    align-items: center;
+    height: 100%;
+}
+
+.logo img{
+    filter: invert(0.5);
+    height: 50%;
+    align-items: center;
+}
