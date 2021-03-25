@@ -4,5 +4,16 @@
 
 .App {
   text-align: center;
+}
+
+.board {
   background-color: #e9ecf1;
+  height: 2000px;
+}
+
+.section1 {
+  display: block;
+  float: left;
+  width: 990px;
+  box-shadow: 2px 2px 4px #dee1e7;
 }

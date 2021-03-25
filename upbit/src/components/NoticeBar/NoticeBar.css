@@ -1,0 +1,21 @@
+.noticebar {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px #dee1e7;
+}
+
+.noticebar__content {
+    float: left;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.noticebar__clostBtn {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
