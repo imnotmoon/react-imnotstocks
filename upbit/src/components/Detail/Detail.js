@@ -1,10 +1,11 @@
 import './Detail.css'
 import btc from '../../res/BTC.png'
+import arrow_down from '../../res/arrow_down.png'
 import React, { useState, useEffect } from 'react'
 
 function Detail() {
 
-    const [price, setPrice] = useState(0)
+    const [price, setPrice] = useState('63,450,000')
 
     return (
         <div className="detail">
@@ -13,8 +14,8 @@ function Detail() {
                 <div className="detail__title__name">
                     <img src={btc} alt="" className="icon"></img>
                     <strong className="coinName">비트코인</strong>
-                    <p style={{ 'padding': "12px 20px 0px 5px" }}>BTC/KRW</p>
-                    <a href="#" style={{ 'padding': "12px 20px 0px 0px" }} >></a>
+                    <p style={{ 'padding': "15px 10px 0px 5px", 'font-size': '12px' }}>BTC/KRW</p>
+                    <img src={arrow_down} className="arrow"></img>
                 </div>
                 <div className="detail__title__tab">
                     <dd className="tab__selected"><a href="#">시세</a></dd>
@@ -53,33 +54,32 @@ function Detail() {
                     <div>
                         <div className="price__volume">
                             <p>거래량(24H)</p>
-                            <span><strong>12,464.823</strong></span>
-                            <p>BTC</p>
+                            <div>
+                                <span><strong>12,464.823</strong>BTC</span>
+                            </div>
                         </div>
                         <div className="price__volumecost">
                             <p>거래대금(24H)</p>
-                            <span><strong>802,124,291,499</strong></span>
-                            <p>KRW</p>
+                            <div>
+                                <span><strong>802,124,291,499</strong>KRW</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div className="detail__foreign">
-                <div className="foriegn__bitfinex">
-                    <strong>Bitfinex</strong>
-                    <span><strong>58,930,308</strong></span>
-                    <span>($51,943.86)</span>
+                <div className="foreign__bitfinex">
+                    <p className="foreign__title">Bitfinex</p>
+                    <span><strong>58,930,308</strong>($51,943.86)</span>
                 </div>
-                <div className="foriegn__kraken">
-                    <strong>Kreaken</strong>
-                    <span><strong>58,930,308</strong></span>
-                    <span>($51,943.86)</span>
+                <div className="foreign__kraken">
+                    <p className="foreign__title">Kraken</p>
+                    <span><strong>58,930,308</strong>($51,943.86)</span>
                 </div>
-                <div className="foriegn__liquid">
-                    <strong>Liquid</strong>
-                    <span><strong>58,930,308</strong></span>
-                    <span>($51,943.86)</span>
+                <div className="foreign__liquid">
+                    <p className="foreign__title">Liquid</p>
+                    <span><strong>58,930,308</strong>($51,943.86)</span>
                 </div>
             </div>
 

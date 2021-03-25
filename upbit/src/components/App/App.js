@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from '../NavBar/NavBar'
 import NoticeBar from '../NoticeBar/NoticeBar'
 import Detail from '../Detail/Detail'
+import Tab from '../Tab/Tab'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Detail />
         </div>
         <div className="section2">
-
+          <Tab />
         </div>
       </div>
 

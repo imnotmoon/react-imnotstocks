@@ -4,7 +4,9 @@
     min-width: 1200px;
     display: flex;
     align-items: center;
-    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 
 .logo {

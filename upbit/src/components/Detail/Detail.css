@@ -57,7 +57,7 @@ dd {
 .detail__market {
     position: relative;
     display: block;
-    padding: 18px 20px 14px;
+    padding: 18px 20px 14px 10px;
     overflow: hidden;
 }
 
@@ -73,29 +73,90 @@ dd {
 .price {
     float: left;
     width: 320px;
+    padding-left: 20px;
 }
 
 .price__price {
     display: flex;
 }
 
+.price__price span {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0f5dcb;
+}
+
+.price__price p {
+    color: #0f5dcb;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 3px;
+}
+
+
 .price__contrast {
     float: left;
+}
+
+.price__contrast{
+    padding-top: 5px;
+    color: #666;
+    font-size: small;
+}
+
+.price__contrast span {
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: #0f5dcb;
+    
 }
 
 .price__highlowvolume {
     display: flex;
     float: right;
     width: 490px;
+    justify-content: space-between;
 }
 
 .detail__foreign {
     display: flex;
+    justify-content: space-between;
     height: 18px;
-    padding: 7px 20px;
+    padding: 7px 80px 7px 30px;
     background-color: #f9fafc;
     border-top: 1px solid #f5f6fa;
     overflow: hidden;
+    color: #999;
+    font-size: 12px;
+}
+
+.foreign__bitfinex {
+    display: flex;
+}
+
+.foreign__kraken {
+    display: flex;
+}
+
+.foreign__liquid {
+    display: flex;
+}
+
+.foreign__title {
+    font-size: 13px;
+}
+
+.foreign__title {
+    padding-right: 10px;
+    color: #3f8ac9;
+    font-size: 15px;
+}
+
+.detail__foreign strong{
+    color: #2b2b2b;
+    font-size: 15px;
 }
 
 .detail__chart {
@@ -104,17 +165,52 @@ dd {
 }
 
 .price__high {
+    width: 200px;
     display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #666;
+    font-size: 13px;
+}
+
+.price__high strong {
+    color: #e66666;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .price__low {
+    font-size: 13px;
+    padding-top: 10px;
+    width: 200px;
     display: flex;
+    justify-content: space-between;
+}
+
+.price__low strong {
+    color: #0f5dcb;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .price__volume {
     display: flex;
+    font-size: 13px;
+    width: 250px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
 }
 
 .price__volumecost {
+    padding-top: 10px;
+    font-size: 13px;
     display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    padding: 15px 0px 0px 0px;
 }

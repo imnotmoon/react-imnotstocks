@@ -4,11 +4,14 @@
 
 .App {
   text-align: center;
+  background-color: #e9ecf1;
 }
 
 .board {
   background-color: #e9ecf1;
   height: 2000px;
+  width: 1400px;
+  display: inline-block;
 }
 
 .section1 {
@@ -16,4 +19,13 @@
   float: left;
   width: 990px;
   box-shadow: 2px 2px 4px #dee1e7;
+}
+
+.section2{
+  width: 400px;
+  height: 600px;
+  float: right;
+  position: sticky;
+  top: 72px;
+  background-color: white;
 }
