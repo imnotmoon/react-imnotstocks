@@ -2,3 +2,24 @@
   margin: 0px;
 }
 
+.content {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.content-up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-down {
+
+}
+
+.content__chart {
+  width: 70%;
+}
+
+.content__list {
+  width: 27%;
+}
