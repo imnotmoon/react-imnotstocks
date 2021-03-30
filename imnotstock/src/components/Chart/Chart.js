@@ -3,11 +3,21 @@ import React, { useState, useEffect, useContext } from 'react'
 import { CurrentStock } from '../App'
 import { Line } from 'react-chartjs-2'
 
+
 function Chart() {
 
     const [stockName, setStockName] = useContext(CurrentStock)
 
     const [graphData, setGraphData] = useState([])
+
+
+    // stockName이 변하면
+    // 1. 차트 데이터 request
+    // 2. 차트 다시 렌더링
+
+    useEffect(() => {
+
+    }, [stockName])
 
     /*
     graph data : dictionary

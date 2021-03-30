@@ -1,0 +1,51 @@
+.table {
+    font-weight: 400;
+    color: #363636;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px #dddddd;
+    border: 1px solid #dbdada;
+    border-radius: 5px;
+    width: 100%;
+    /* min-width: 260px; */
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+}
+
+.table__header {
+    background-color: #f5f4f4;
+    height: 30px;
+    display: flex;
+    width: 100%;
+    min-width: 150px;
+    align-items: center;
+}
+
+.table__title {
+    padding-left: 15%;
+    padding-right: 12%;
+}
+
+.table__price {
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+tr {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    border-bottom: 1px solid #f5f4f4;
+}
+
+td {
+    min-width: 70px;
+}
+
+.table__cell__title {
+    width: 60%;
+    text-align: center;
+}
+
