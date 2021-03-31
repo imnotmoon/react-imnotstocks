@@ -1,0 +1,23 @@
+.talk {
+    width: 100%;
+    font-weight: 400;
+    color: #363636;
+}
+
+.talk__title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+
+}
+
+.talk__title p {
+    font-size: 17px;
+}
+
+.talk__talk {
+    box-shadow: 0px 1px 3px #c9c9c9;
+    display: block;
+    height: 320px;
+}

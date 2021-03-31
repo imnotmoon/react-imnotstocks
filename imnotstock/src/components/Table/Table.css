@@ -49,3 +49,8 @@ td {
     text-align: center;
 }
 
+.table__cell:hover {
+    background-color: #e6e3e3;
+    cursor: pointer;
+}
+

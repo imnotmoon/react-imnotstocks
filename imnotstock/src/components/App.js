@@ -3,6 +3,8 @@ import Navbar from './NavBar/NavBar'
 import Chart from './Chart/Chart'
 import List from './List/List'
 import Trade from './Trade/Trade'
+import News from './News/News'
+import Talk from './Talk/Talk'
 import React, { useState, createContext } from 'react'
 
 
@@ -29,6 +31,12 @@ function App() {
           <div className="content-down">
             <div className="content__trade">
               <Trade />
+            </div>
+            <div className="content__news">
+              <News />
+            </div>
+            <div className="content__talk">
+              <Talk />
             </div>
           </div>
         </div>
