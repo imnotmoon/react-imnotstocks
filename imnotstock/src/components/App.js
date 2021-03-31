@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './NavBar/NavBar'
 import Chart from './Chart/Chart'
 import List from './List/List'
+import Trade from './Trade/Trade'
 import React, { useState, createContext } from 'react'
 
 
@@ -26,6 +27,9 @@ function App() {
             </div>
           </div>
           <div className="content-down">
+            <div className="content__trade">
+              <Trade />
+            </div>
           </div>
         </div>
       </div>

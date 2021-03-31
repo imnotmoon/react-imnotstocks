@@ -14,7 +14,7 @@
 }
 
 .list__searchbox input {
-    width: 100%;
+    width: 95%;
     height: 15px;
     padding: 10px 5px 10px 5px;
     border: 1px solid #b889f7;
@@ -25,7 +25,7 @@
 
 button {
     display: inline;
-    margin-left: -45px;
+    margin-left: -50px;;
     border: none;
     background-color: white;
     color: #b889f7;

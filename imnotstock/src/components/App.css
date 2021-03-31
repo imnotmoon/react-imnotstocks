@@ -13,7 +13,8 @@
 }
 
 .content-down {
-
+  width: 100%;
+  height: 500px;
 }
 
 .content__chart {
@@ -22,4 +23,20 @@
 
 .content__list {
   width: 27%;
+}
+
+.content__trade {
+  width: 40%;
+}
+
+.content__news {
+  width: 30%;
+}
+
+.content__talk {
+  width: 27%;
+}
+
+.tab__buy p {
+  text-decoration: none;
 }

@@ -1,0 +1,125 @@
+.trade {
+    width: 100%;
+    font-weight: 400;
+    color: #363636;
+}
+
+.trade__title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+
+}
+
+.trade__title p {
+    font-size: 17px;
+}
+
+.trade__trade {
+    box-shadow: 0px 1px 3px #c9c9c9;
+    display: block;
+    /* height: 230px; */
+}
+
+.trade__tab {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    padding-top: 15px;
+    align-items: center;
+    border-bottom: 1px solid #e4e3e3;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tab__tab:hover {
+    border-bottom: 3px solid #7e22f5;
+}
+
+.tab__tab {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+}
+
+a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #888585;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #7e22f5;
+}
+
+.buy__content {
+    padding-top: 7%;
+    padding-left: 7%;
+    height: 250px;
+}
+
+.buy__content p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buy__content input {
+    height: 30px;
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #e4e3e3;
+}
+
+.buy__content div {
+    margin-top: 20px;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 10px;
+    width: 60%;
+    background-color: #7e22f5;
+    color: white;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+/* SELL */
+
+.sell__content {
+    padding-top: 7%;
+    padding-left: 7%;
+    height: 250px;
+}
+
+.sell__content p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sell__content input {
+    height: 30px;
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #e4e3e3;
+}
+
+.sell__content div {
+    margin-top: 20px;
+    margin-left: 15%;
+    text-align: center;
+    padding-top: 10px;
+    width: 60%;
+    background-color: #7e22f5;
+    color: white;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+}
